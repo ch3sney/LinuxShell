@@ -3,8 +3,8 @@
 #include <unistd.h>
 #include <signal.h>
 #include <string.h>
-# include <sys/stat.h>
-# include <fcntl.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 
 #define MAX_LINE 80 /* 80 chars per line, per command, should be enough. */
 #define MAX_COMMANDS 10 /* number of commands to display */
